@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://centr-krasok.kz/",
+    "title": "ᐉ Центр Красок #1 Интернет-магазин строительных красок в Алматы",
+    "status": 200,
+    "html_file": "data/raw/pages/01-home-6f8dabf1.html",
+    "text_file": "data/raw/pages/01-home-6f8dabf1.txt",
+    "fetched_at": "2026-05-28T12:48:55.431060+00:00",
+    "sha256": "2bc1079d020d5130e12945bd06be85b9cc7b11ee79b982bb2f78a7c45ab497fb",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/about/",
+    "title": "О магазине - Центр Красок #1",
+    "status": 200,
+    "html_file": "data/raw/pages/02-about-42d622c3.html",
+    "text_file": "data/raw/pages/02-about-42d622c3.txt",
+    "fetched_at": "2026-05-28T12:48:59.208580+00:00",
+    "sha256": "cc5d5b54be7026afcfb74f75411dd328130f2602a7d5dc3a3a8c27988f0f47b6",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/about/contacts/",
+    "title": "Контакты",
+    "status": 200,
+    "html_file": "data/raw/pages/03-about-contacts-70afa518.html",
+    "text_file": "data/raw/pages/03-about-contacts-70afa518.txt",
+    "fetched_at": "2026-05-28T12:49:00.053606+00:00",
+    "sha256": "83aa05cd12739f1e97fd1c37e71f7c8d4de7e8b9fd9140d3784036a41665e3b6",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/catalog/",
+    "title": "ᐉ Каталог строительных красок, лаков и малярных инструментов в Центре красок #1",
+    "status": 200,
+    "html_file": "data/raw/pages/04-catalog-ec8195c9.html",
+    "text_file": "data/raw/pages/04-catalog-ec8195c9.txt",
+    "fetched_at": "2026-05-28T12:49:00.910005+00:00",
+    "sha256": "05a02780eeb7e08830f05ffe1e5d0838ced91d8f408e7dfa26335c0b38122593",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/brands/",
+    "title": "Бренды",
+    "status": 200,
+    "html_file": "data/raw/pages/05-brands-671926ef.html",
+    "text_file": "data/raw/pages/05-brands-671926ef.txt",
+    "fetched_at": "2026-05-28T12:49:02.172284+00:00",
+    "sha256": "47f841628e53d46b5f3e188f5d8840aa85bb575fa742beadc790dd704829aba8",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/tinting/",
+    "title": "Подборка краски в интерьер - Центр Красок #1",
+    "status": 200,
+    "html_file": "data/raw/pages/06-tinting-98627f5f.html",
+    "text_file": "data/raw/pages/06-tinting-98627f5f.txt",
+    "fetched_at": "2026-05-28T12:49:03.000652+00:00",
+    "sha256": "e63187a886c8288066de63a767744eeca2a7a0336fb924a4f7405d0996741465",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/partners/",
+    "title": "Партнерам",
+    "status": 200,
+    "html_file": "data/raw/pages/07-partners-3870c400.html",
+    "text_file": "data/raw/pages/07-partners-3870c400.txt",
+    "fetched_at": "2026-05-28T12:49:03.869523+00:00",
+    "sha256": "d6ba8b529245063fab88178d429d61b23110ecb75131235276d216da30e734a5",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/designers/",
+    "title": "Центр Красок#1",
+    "status": 200,
+    "html_file": "data/raw/pages/08-designers-3185c081.html",
+    "text_file": "data/raw/pages/08-designers-3185c081.txt",
+    "fetched_at": "2026-05-28T12:49:04.667584+00:00",
+    "sha256": "661a2f92a0ad959aba8c27b1baf01c00663ec686354e793f0de1431130030bf4",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/for_builders/",
+    "title": "Строителям",
+    "status": 200,
+    "html_file": "data/raw/pages/09-for_builders-ab46e930.html",
+    "text_file": "data/raw/pages/09-for_builders-ab46e930.txt",
+    "fetched_at": "2026-05-28T12:49:05.507373+00:00",
+    "sha256": "4a1ee79625224b870baea3c87598ccc90a0ea3aab2d8f53819f00a5c5080adc1",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/for_builders_company/",
+    "title": "Строителям",
+    "status": 200,
+    "html_file": "data/raw/pages/10-for_builders_company-fd7aabaf.html",
+    "text_file": "data/raw/pages/10-for_builders_company-fd7aabaf.txt",
+    "fetched_at": "2026-05-28T12:49:06.317760+00:00",
+    "sha256": "fbb16560b1c4eb14ccae90c4aa9fddadaf0bfeb517c9c51f35b3b7464cf2376b",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/news/",
+    "title": "Новости",
+    "status": 200,
+    "html_file": "data/raw/pages/11-news-5d08984c.html",
+    "text_file": "data/raw/pages/11-news-5d08984c.txt",
+    "fetched_at": "2026-05-28T12:49:07.161441+00:00",
+    "sha256": "ac0883f04612fd1230f3f39f0584d6016e59aa7555ba887fd397caf1d4f4acab",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/news/tsentr_krasok_1_na_dizaynerskoy_vystavke/",
+    "title": "Центр Красок #1 на дизайнерской выставке",
+    "status": 200,
+    "html_file": "data/raw/pages/12-news-tsentr_krasok_1_na_dizaynerskoy_vystavke-8d09557e.html",
+    "text_file": "data/raw/pages/12-news-tsentr_krasok_1_na_dizaynerskoy_vystavke-8d09557e.txt",
+    "fetched_at": "2026-05-28T12:49:07.974649+00:00",
+    "sha256": "5c094fbfd098a1f37e9ff5191f4d04f192b8c767acbabc9b05863e909e234e2b",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/news/tsentr_krasok_1_vybor_strany/",
+    "title": "«Центр Красок #1» - Выбор страны",
+    "status": 200,
+    "html_file": "data/raw/pages/13-news-tsentr_krasok_1_vybor_strany-484bd59b.html",
+    "text_file": "data/raw/pages/13-news-tsentr_krasok_1_vybor_strany-484bd59b.txt",
+    "fetched_at": "2026-05-28T12:49:08.793843+00:00",
+    "sha256": "36bd2eac2c20a3792671831883e77b53feea522e31ce6a2b2222b812a1a5423b",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/promotions/",
+    "title": "Акции",
+    "status": 200,
+    "html_file": "data/raw/pages/14-promotions-6c82f47a.html",
+    "text_file": "data/raw/pages/14-promotions-6c82f47a.txt",
+    "fetched_at": "2026-05-28T12:49:09.653009+00:00",
+    "sha256": "133077dd99598a07792a6db3e63ae56d662cac884db8e5844fe1d757edb51bde",
+    "error": null
+  },
+  {
+    "url": "https://centr-krasok.kz/about/offer_agreement/",
+    "title": "О магазине - Центр Красок #1",
+    "status": 200,
+    "html_file": "data/raw/pages/15-about-offer_agreement-e36111b7.html",
+    "text_file": "data/raw/pages/15-about-offer_agreement-e36111b7.txt",
+    "fetched_at": "2026-05-28T12:49:10.479827+00:00",
+    "sha256": "098f5dd2ed8f02a242386c628a7eb163212e1564e2e58ade84cd912a5ea1dac9",
+    "error": null
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "generated_at": "2026-05-28",
+  "raw_manifest": "data/raw/sources_manifest.json",
+  "knowledge_base": "data/processed/knowledge_base.json",
+  "facts": "data/processed/company_facts.md",
+  "note": "The assistant must answer only from the knowledge base. Unknown or weakly supported facts should be reported as unavailable in the current data."
+}
