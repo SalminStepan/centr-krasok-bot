@@ -1,7 +1,13 @@
 from pathlib import Path
 
 from src.ai.assistant import CompanyAssistant
-from src.ai.responses import CONTACTS_REPLY, IRRELEVANT_REPLY, SOCIAL_MEDIA_REPLY, WORKING_HOURS_REPLY
+from src.ai.responses import (
+    CONTACTS_REPLY,
+    IRRELEVANT_REPLY,
+    PRODUCTS_REPLY,
+    SOCIAL_MEDIA_REPLY,
+    WORKING_HOURS_REPLY,
+)
 from src.company_knowledge.retriever import KnowledgeRetriever
 from src.storage.conversation import Message
 
@@ -27,6 +33,17 @@ def test_uses_fixed_contact_and_hours_replies() -> None:
     assert assistant.answer("Ваши контакты и адреса", []) == CONTACTS_REPLY
     assert assistant.answer("Время работы", []) == WORKING_HOURS_REPLY
     assert assistant.answer("Соц сети", []) == SOCIAL_MEDIA_REPLY
+    assert assistant.answer("Какой у вас ассортимент?", []) == PRODUCTS_REPLY
+
+
+def test_sanitizes_markdown_artifacts() -> None:
+    assistant = build_assistant()
+    cleaned = assistant._sanitize_model_answer(
+        "Компания продает **интерьерные краски**. Подробнее: [каталог](https://centr-krasok.kz/catalog/)"
+    )
+    assert "**" not in cleaned
+    assert "[каталог]" not in cleaned
+    assert "каталог: https://centr-krasok.kz/catalog/" in cleaned
 
 
 def test_glossary_answers_known_terms_only() -> None:

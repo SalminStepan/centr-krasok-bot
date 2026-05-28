@@ -67,6 +67,32 @@ YouTube: https://www.youtube.com/channel/UCPC7__jM5FzQXQOgqsNbUlQ
 
 Сайт: https://centr-krasok.kz/"""
 
+PRODUCTS_REPLY = """🎨 Ассортимент компании «Центр Красок #1»:
+
+Краски:
+- интерьерные
+- фасадные
+- по дереву
+- по металлу
+- универсальные и аэрозольные
+- декоративные и фактурные
+
+Материалы и инструменты:
+- грунтовки
+- штукатурки
+- лаки и масла
+- пропитки
+- клеи и герметики
+- обои под покраску
+- растворители и очистители
+- малярные инструменты
+- краскопульты
+
+Бренды:
+Dulux, Marshall, Masterline, Hammerite, Pinotex, Luxium, Dufa, OIKOS, Profilux, Vetonit, Hygge и другие.
+
+Каталог: https://centr-krasok.kz/catalog/"""
+
 
 @dataclass(frozen=True)
 class GlossaryTerm:

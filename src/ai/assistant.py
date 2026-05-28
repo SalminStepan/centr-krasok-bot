@@ -8,6 +8,7 @@ from src.ai.responses import (
     CONTACTS_REPLY,
     GREETING_REPLY,
     IRRELEVANT_REPLY,
+    PRODUCTS_REPLY,
     SOCIAL_MEDIA_REPLY,
     UNKNOWN_REPLY,
     WORKING_HOURS_REPLY,
@@ -30,6 +31,17 @@ START_MESSAGES = {"/start", "start", "старт", "привет", "здравс
 CONTACT_WORDS = ("контакт", "адрес", "телефон", "почта", "email")
 HOURS_WORDS = ("время работы", "режим", "график", "работаете")
 SOCIAL_WORDS = ("соц", "соцсет", "социальн", "instagram", "инстаграм", "facebook", "youtube")
+PRODUCT_WORDS = (
+    "ассортимент",
+    "каталог",
+    "товар",
+    "продукт",
+    "продаете",
+    "продаёте",
+    "бренд",
+    "краски",
+    "лакокрас",
+)
 SERVICE_WORDS = (
     "центр красок",
     "centr-krasok",
@@ -147,6 +159,8 @@ class CompanyAssistant:
             return WORKING_HOURS_REPLY
         if any(word in text for word in SOCIAL_WORDS):
             return SOCIAL_MEDIA_REPLY
+        if any(word in text for word in PRODUCT_WORDS):
+            return PRODUCTS_REPLY
         return glossary_reply(text)
 
     @staticmethod
@@ -197,6 +211,8 @@ class CompanyAssistant:
         cleaned = answer.strip()
         cleaned = re.sub(r"</?(assistant|user|system)\s*>", "", cleaned, flags=re.IGNORECASE)
         cleaned = re.sub(r"^(assistant|ассистент)\s*:\s*", "", cleaned, flags=re.IGNORECASE)
+        cleaned = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r"\1: \2", cleaned)
+        cleaned = re.sub(r"[*_`~]{1,3}", "", cleaned)
         cleaned = re.sub(r"\n{3,}", "\n\n", cleaned).strip()
         return cleaned or UNKNOWN_REPLY
 
