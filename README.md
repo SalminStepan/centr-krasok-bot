@@ -41,6 +41,10 @@ AI_MODEL=openrouter/free
 python3 -m src.main
 ```
 
+## Деплой
+
+Инструкция для сервера и `systemd`: [docs/deploy.md](docs/deploy.md).
+
 ## Обновление данных
 
 ```bash

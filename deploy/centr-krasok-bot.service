@@ -1,0 +1,17 @@
+[Unit]
+Description=AI Telegram assistant for Centr Krasok
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/centr-krasok-bot
+Environment=PYTHONDONTWRITEBYTECODE=1
+ExecStart=/opt/centr-krasok-bot/.venv/bin/python -m src.main
+Restart=always
+RestartSec=5
+User=centrbot
+Group=centrbot
+
+[Install]
+WantedBy=multi-user.target
