@@ -6,3 +6,4 @@ __pycache__/
 venv/
 data/processed/conversations.json
 data/runtime/
+docs/interview-prep.md
