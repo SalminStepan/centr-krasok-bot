@@ -60,7 +60,13 @@
 
 ## Соцсети
 
-На официальной новости с Instagram-embed указан аккаунт: `@centr_krasok`, подпись: «ЦЕНТР КРАСОК #1 | Алматы • Астана».
+В футере официального сайта указаны соцсети:
+
+- Instagram: https://www.instagram.com/centr_krasok/
+- Facebook: https://www.facebook.com/profile.php?id=100075230594445
+- YouTube: https://www.youtube.com/channel/UCPC7__jM5FzQXQOgqsNbUlQ
+
+На официальной новости с Instagram-embed также указан аккаунт: `@centr_krasok`, подпись: «ЦЕНТР КРАСОК #1 | Алматы • Астана».
 
 ## Вакансии
 

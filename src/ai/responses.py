@@ -59,6 +59,14 @@ WORKING_HOURS_REPLY = """🕐 Время работы салонов компа�
 Алматы, ул. Кабдолова 1/8, бутик D21: 10:00-20:00
 Астана, ул. Мангилик Ел, 29/2: 10:00-20:00"""
 
+SOCIAL_MEDIA_REPLY = """🌐 Соцсети компании «Центр Красок #1»:
+
+Instagram: https://www.instagram.com/centr_krasok/
+Facebook: https://www.facebook.com/profile.php?id=100075230594445
+YouTube: https://www.youtube.com/channel/UCPC7__jM5FzQXQOgqsNbUlQ
+
+Сайт: https://centr-krasok.kz/"""
+
 
 @dataclass(frozen=True)
 class GlossaryTerm:

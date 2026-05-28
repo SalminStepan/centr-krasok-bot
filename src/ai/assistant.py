@@ -8,6 +8,7 @@ from src.ai.responses import (
     CONTACTS_REPLY,
     GREETING_REPLY,
     IRRELEVANT_REPLY,
+    SOCIAL_MEDIA_REPLY,
     UNKNOWN_REPLY,
     WORKING_HOURS_REPLY,
     glossary_reply,
@@ -28,6 +29,7 @@ SYSTEM_PROMPT = """Ты дружелюбный Telegram-ассистент ко�
 START_MESSAGES = {"/start", "start", "старт", "привет", "здравствуйте", "добрый день"}
 CONTACT_WORDS = ("контакт", "адрес", "телефон", "почта", "email")
 HOURS_WORDS = ("время работы", "режим", "график", "работаете")
+SOCIAL_WORDS = ("соц", "соцсет", "социальн", "instagram", "инстаграм", "facebook", "youtube")
 SERVICE_WORDS = (
     "центр красок",
     "centr-krasok",
@@ -55,6 +57,13 @@ SERVICE_WORDS = (
     "profilux",
     "vetonit",
     "hygge",
+    "соц",
+    "соцсет",
+    "социальн",
+    "instagram",
+    "инстаграм",
+    "facebook",
+    "youtube",
 )
 COMPANY_INTENT_WORDS = (
     "адрес",
@@ -85,6 +94,8 @@ COMPANY_INTENT_WORDS = (
     "астана",
     "новост",
     "акци",
+    "соцсет",
+    "социальн",
 )
 GENERIC_COMPANY_QUESTIONS = (
     "чем занимается компания",
@@ -134,6 +145,8 @@ class CompanyAssistant:
             return CONTACTS_REPLY
         if any(word in text for word in HOURS_WORDS):
             return WORKING_HOURS_REPLY
+        if any(word in text for word in SOCIAL_WORDS):
+            return SOCIAL_MEDIA_REPLY
         return glossary_reply(text)
 
     @staticmethod

@@ -58,9 +58,9 @@
   {
     "id": "social_media",
     "title": "Соцсети",
-    "tags": ["соцсети", "instagram", "инстаграм", "centr_krasok"],
-    "source_urls": ["https://centr-krasok.kz/news/tsentr_krasok_1_na_dizaynerskoy_vystavke/"],
-    "text": "На официальной новости с Instagram-embed указан аккаунт: @centr_krasok, подпись: «ЦЕНТР КРАСОК #1 | Алматы • Астана»."
+    "tags": ["соцсети", "социальные сети", "instagram", "инстаграм", "facebook", "youtube", "centr_krasok"],
+    "source_urls": ["https://centr-krasok.kz/about/contacts/", "https://centr-krasok.kz/news/tsentr_krasok_1_na_dizaynerskoy_vystavke/"],
+    "text": "В футере официального сайта указаны соцсети Центр Красок #1: Instagram — https://www.instagram.com/centr_krasok/, Facebook — https://www.facebook.com/profile.php?id=100075230594445, YouTube — https://www.youtube.com/channel/UCPC7__jM5FzQXQOgqsNbUlQ. На официальной новости с Instagram-embed также указан аккаунт @centr_krasok, подпись: «ЦЕНТР КРАСОК #1 | Алматы • Астана»."
   },
   {
     "id": "vacancies",
