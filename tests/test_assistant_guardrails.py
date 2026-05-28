@@ -14,7 +14,7 @@ from src.storage.conversation import Message
 
 class FakeAIClient:
     def chat(self, messages: list[dict[str, str]]) -> str:
-        return "AI_CALLED"
+        return "AI called"
 
 
 def build_assistant() -> CompanyAssistant:
@@ -59,4 +59,4 @@ def test_short_follow_up_uses_company_context() -> None:
         Message(role="user", content="Где находятся салоны Центр Красок?"),
         Message(role="assistant", content="Салоны есть в Алматы и Астане."),
     ]
-    assert assistant.answer("А в Астане?", history) == "AI_CALLED"
+    assert assistant.answer("А в Астане?", history) == "AI called"
